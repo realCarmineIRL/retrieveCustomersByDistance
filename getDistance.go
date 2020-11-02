@@ -13,7 +13,7 @@ const earthRadius float64 = 6371
 const intercomlat string = "53.339428"
 const intercomLon string = "-6.257664"
 
-// CalcDistance get distance between two coordinates
+// CalcDistance get distance between two coordinates in KM
 func CalcDistance(lat string, lon string) (float64, error) {
 
 	radlat1, errRadlat1 := convertDegToRad(lat)
